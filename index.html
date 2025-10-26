@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="The 1776" property="og:title">
+    <meta content="Test your knowledge on U.S History with this test!" property="og:description">
+    <meta content="https://itsmike613.github.io/THE1776/" property="og:url">
+    <meta content="https://github.com/itsmike613/THE1776/blob/main/Source/Images/logo.png?raw=true" property="og:image">
+    <meta content="#0A3161" data-react-helmet="true" name="theme-color">
+
+    <!-- Tab -->
+    <link rel="icon" type="image/x-icon" href="Source/Images/logo.png">
+    <title>The 1776</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="Source/Styles/index.css">
+</head>
+
+<body>
+    <!-- HOME -->
+    <div id="home">
+        <div class="header">
+            <h1 class="h1">Sample Test</h1>
+            <div class="small-muted">Quick self-check</div>
+        </div>
+
+        <div class="card">
+            <div class="info"><strong>Details:</strong> This is a short multi-category test. Questions may award partial
+                credit.</div>
+            <div class="metrics">
+                <div class="metric" id="est-time">Est. time: 3 min</div>
+                <div class="metric" id="categories-list">Categories: —</div>
+                <div class="metric" id="total-questions">Total questions: —</div>
+                <div class="metric" id="avg-score">Avg total score: —</div>
+            </div>
+        </div>
+
+        <div style="margin-top:10px">
+            <button id="startBtn">Start</button>
+        </div>
+    </div>
+
+    <!-- TEST -->
+    <div id="test" class="hidden">
+        <div class="header">
+            <div>
+                <div class="category" id="qCategory">Category</div>
+                <div class="question" id="qText">Question text</div>
+                <div class="small-muted" id="qCounts"></div>
+            </div>
+            <div class="space"></div>
+            <div style="text-align:right">
+                <div class="small-muted">Question</div>
+                <div id="globalCount" style="font-weight:700; font-size:18px">0 / 0</div>
+            </div>
+        </div>
+
+        <div id="optionsArea"></div>
+
+        <div class="footer-buttons">
+            <button id="backBtn" class="small">Back</button>
+            <button id="nextBtn" class="small" disabled>Next</button>
+            <div class="space"></div>
+            <button id="retryBtn" class="small">Retry</button>
+        </div>
+    </div>
+
+    <!-- DONE -->
+    <div id="done" class="hidden">
+        <div class="header">
+            <h1 class="h1">Results</h1>
+            <div class="small-muted">Review your answers</div>
+        </div>
+
+        <div class="card">
+            <div style="font-size:16px; margin-bottom:6px"><strong>Total score</strong></div>
+            <div style="font-size:36px; font-weight:700" id="totalScore">0000</div>
+            <div style="margin-top:8px" id="categoryScores"></div>
+        </div>
+
+        <div style="margin-top:12px">
+            <div class="header">
+                <div class="small-muted">Review player</div>
+            </div>
+            <div id="donePlayer"></div>
+
+            <div class="footer-buttons" style="margin-top:12px">
+                <button id="doneBack" class="small">Back</button>
+                <button id="doneNext" class="small">Next</button>
+                <div class="space"></div>
+                <button id="doneRetry" class="small">Retry</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="Source/Data/index.js"></script>
+    <script src="Source/Scripts/index.js"></script>
+</body>
+
+
+</html>
