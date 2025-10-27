@@ -14,7 +14,7 @@ function initHome() {
     el('categories-list').textContent = `Categories: ${categories.join(', ')}`;
     el('total-questions').textContent = `Total questions: ${n}`;
     // estimate: 30s per question
-    const est = Math.max(1, Math.round(n * 0.5)); // minutes roughly
+    const est = Math.max(1, Math.round(n * (1/3))); // minutes roughly
     el('est-time').textContent = `Est. time: ${est} min`;
     // average total score: use sample historical mean (placeholder)
     el('avg-score').textContent = `Avg total score: 700 (sample)`;
