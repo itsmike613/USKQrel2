@@ -21,12 +21,12 @@ const QUESTIONS = [
 	{
 		"q": "Who is the current U.S. Vice President (2025)?",
 		"c": "Current Presidency",
-		"e": "",
+		"e": "JD Vance is the current Vice President of the United States, serving alongside President Donald J. Trump since the 2025 inauguration.",
 		"o": [
-			{ "t": "Kamala D. Harris", "i": "", "w": 0.1 },
-			{ "t": "Mike R. Pence", "i": "", "w": 0 },
-			{ "t": "JD Vance", "i": "", "w": 1 },
-			{ "t": "Dick B. Cheney", "i": "", "w": 0 }
+			{ "t": "Kamala D. Harris", "i": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2025/01/harris-profile-21.png", "w": 0.1 },
+			{ "t": "Mike R. Pence", "i": "https://trumpwhitehouse.archives.gov/wp-content/uploads/2017/11/VicePresidentPence-620x620.jpg", "w": 0 },
+			{ "t": "JD Vance", "i": "https://www.whitehouse.gov/wp-content/uploads/2025/01/JD-Vance.jpg", "w": 1 },
+			{ "t": "Dick B. Cheney", "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/46_Dick_Cheney_3x4.jpg/500px-46_Dick_Cheney_3x4.jpg", "w": 0 }
 		]
 	},
 	{
