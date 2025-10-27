@@ -30,58 +30,31 @@ const QUESTIONS = [
 		]
 	},
 	{
-		"q": "",
-		"c": "",
-		"e": "",
+		"q": "What makes Donald J. Trump’s 2025 presidency noteworthy?",
+		"c": "Current Presidency",
+		"e": "Donald J. Trump’s 2025 term is notable for making him the oldest president ever inaugurated in U.S. history.",
 		"o": [
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 }
-		]
-	},
-	{
-		"q": "",
-		"c": "",
-		"e": "",
-		"o": [
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 }
-		]
-	},
-	{
-		"q": "",
-		"c": "",
-		"e": "",
-		"o": [
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 }
-		]
-	},
-	{
-		"q": "",
-		"c": "",
-		"e": "",
-		"o": [
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 }
-		]
-	},
-	{
-		"q": "",
-		"c": "",
-		"e": "",
-		"o": [
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 },
-			{ "t": "", "i": "", "w": 0 }
+			{ "t": "First president to serve three terms", "i": "", "w": 0 },
+			{ "t": "Oldest president ever inaugurated", "i": "", "w": 1 },
+			{ "t": "First president born in the 1980s", "i": "", "w": 0 },
+			{ "t": "First female president", "i": "", "w": 0 }
 		]
 	}
 ];
+
+
+/*
+
+{
+	"q": "",
+	"c": "",
+	"e": "",
+	"o": [
+		{ "t": "", "i": "", "w": 0 },
+		{ "t": "", "i": "", "w": 0 },
+		{ "t": "", "i": "", "w": 0 },
+		{ "t": "", "i": "", "w": 0 }
+	]
+},
+
+*/
