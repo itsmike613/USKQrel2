@@ -39,6 +39,28 @@ const QUESTIONS = [
 			{ "t": "First president born in the 1980s", "i": "", "w": 0 },
 			{ "t": "First female president", "i": "", "w": 0 }
 		]
+	},
+	{
+		"q": "When was Donald J. Trump inaugurated as the 47th president?",
+		"c": "Current Presidency",
+		"e": "He was inaugurated on January 20, 2025, following his reelection in November 2024 as the 47th president of the United States.",
+		"o": [
+			{ "t": "January 20, 2021", "i": "", "w": 0 },
+			{ "t": "November 8, 2024", "i": "", "w": 0 },
+			{ "t": "July 4, 2023", "i": "", "w": 0 },
+			{ "t": "January 20, 2025", "i": "", "w": 1 }
+		]
+	},
+	{
+		"q": "Which U.S. political party is known as the Grand Old Party?",
+		"c": "Political Parties",
+		"e": "The term started in the 1870s after the Civil War. People called the Republicans the 'Grand Old Party' to honor their role in keeping the country together and ending slavery.",
+		"o": [
+			{ "t": "Reform Party", "i": "", "w": 0 },
+			{ "t": "Libertarian Party", "i": "", "w": 0 },
+			{ "t": "Democratic Party", "i": "", "w": 0 },
+			{ "t": "Republican Party", "i": "", "w": 1 }
+		]
 	}
 ];
 
