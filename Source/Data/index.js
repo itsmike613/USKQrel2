@@ -61,7 +61,40 @@ const QUESTIONS = [
 			{ "t": "Democratic Party", "i": "", "w": 0 },
 			{ "t": "Republican Party", "i": "", "w": 1 }
 		]
-	}
+	},
+	{
+		"q": "Which U.S. political party was founded in opposition to the expansion of slavery?",
+		"c": "Political Parties",
+		"e": "The Republican Party formed in 1854 to stop the spread of slavery into new U.S. territories.",
+		"o": [
+			{ "t": "Democratic Party", "i": "", "w": 0 },
+			{ "t": "Republican Party", "i": "", "w": 1 },
+			{ "t": "Green Party", "i": "", "w": 0 },
+			{ "t": "Reform Party", "i": "", "w": 0 }
+		]
+	},
+	{
+		"q": "Which U.S. political party traditionally uses a donkey as its symbol?",
+		"c": "Political Parties",
+		"e": "The Democratic Party adopted the donkey symbol after it was popularized in political cartoons during the 19th century.",
+		"o": [
+			{ "t": "Republican Party", "i": "", "w": 0 },
+			{ "t": "Libertarian Party", "i": "", "w": 0 },
+			{ "t": "Democratic Party", "i": "", "w": 1 },
+			{ "t": "Green Party", "i": "", "w": 0 }
+		]
+	},
+	{
+		"q": "Which animal represents the Republican Party in the United States?",
+		"c": "Political Parties",
+		"e": "The elephant became the Republican Party’s symbol after appearing in political cartoons by Thomas Nast in the 1870s.",
+		"o": [
+			{ "t": "Elephant", "i": "", "w": 1 },
+			{ "t": "Donkey", "i": "", "w": 0 },
+			{ "t": "Eagle", "i": "", "w": 0 },
+			{ "t": "Bear", "i": "", "w": 0 }
+		]
+	},
 ];
 
 
