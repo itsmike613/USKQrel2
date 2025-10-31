@@ -16,86 +16,91 @@
     <title>The 1776</title>
 
     <!-- Styles -->
+    <link rel="stylesheet" href="https://unpkg.com/phosphor-icons@1.4.1/src/css/icons.css">
     <link rel="stylesheet" href="Source/Styles/index.css">
 </head>
 
 <body>
     <!-- HOME -->
-    <div id="home">
-        <div class="header">
-            <h1 class="h1">The 1776</h1>
-            <div class="small-muted">United States of America History Test</div>
-        </div>
+<div id="home">
+  <div class="header">
+    <h1 class="h1">The 1776</h1>
+    <div class="small-muted">United States of America History Test</div>
+  </div>
 
-        <div class="card">
-            <div class="info"><strong>Details:</strong> This is a short multi-category test. Questions may award partial
-                credit.</div>
-            <div class="metrics">
-                <div class="metric" id="est-time">Est. time: 3 min</div>
-                <div class="metric" id="categories-list">Categories: —</div>
-                <div class="metric" id="total-questions">Total questions: —</div>
-                <div class="metric" id="avg-score">Avg total score: —</div>
-            </div>
-        </div>
-
-        <div style="margin-top:10px">
-            <button id="startBtn" class="small">Start</button>
-        </div>
+  <div class="card">
+    <div class="info"><strong>Details:</strong> This is a short multi-category test. Questions may award partial credit.</div>
+    <div class="metrics">
+      <div class="metric" id="est-time">Est. time: —</div>
+      <div class="metric" id="categories-list">Categories: —</div>
+      <div class="metric" id="total-questions">Total questions: —</div>
+      <div class="metric" id="avg-score">Avg total score: —</div>
     </div>
 
-    <!-- TEST -->
-    <div id="test" class="hidden">
-        <div class="header">
-            <div>
-                <div class="category" id="qCategory">Category</div>
-                <div class="question" id="qText">Question text</div>
-                <div class="small-muted" id="qCounts"></div>
-            </div>
-            <div class="space"></div>
-            <div style="text-align:right">
-                <div class="small-muted">Question</div>
-                <div id="globalCount" style="font-weight:700; font-size:18px">0 / 0</div>
-            </div>
-        </div>
-
-        <div id="optionsArea"></div>
-
-        <div class="footer-buttons">
-            <button id="backBtn" class="small">Back</button>
-            <button id="nextBtn" class="small" disabled>Next</button>
-            <div class="space"></div>
-            <button id="retryBtn" class="small">Retry</button>
-        </div>
+    <div class="info" style="margin-top:12px;">
+      <label><input type="checkbox" id="togglePartial" checked> Give partial credit</label><br/>
+      <label><input type="checkbox" id="toggleImages" checked> Show option images</label>
     </div>
+  </div>
 
-    <!-- DONE -->
-    <div id="done" class="hidden">
-        <div class="header">
-            <h1 class="h1">Results</h1>
-            <div class="small-muted">Review your answers</div>
-        </div>
+  <div style="margin-top:10px">
+    <button id="startBtn">Start</button>
+  </div>
+</div>
 
-        <div class="card">
-            <div style="font-size:16px; margin-bottom:6px"><strong>Total score</strong></div>
-            <div style="font-size:36px; font-weight:700" id="totalScore">0000</div>
-            <div style="margin-top:8px" id="categoryScores"></div>
-        </div>
-
-        <div style="margin-top:12px">
-            <div class="header">
-                <h1 class="h1">Review</h1>
-                <div class="small-muted">Test review player</div>
-            </div>
-            <div id="donePlayer"></div>
-
-            <div class="footer-buttons" style="margin-top:12px">
-                <button id="doneBack" class="small">Back</button>
-                <button id="doneNext" class="small">Next</button>
-                <div class="space"></div>
-                <button id="doneRetry" class="small">Retry</button>
-            </div>
-        </div>
+<!-- TEST -->
+<div id="test" class="hidden">
+  <div class="header">
+    <div>
+      <div class="category" id="qCategory">Category</div>
+      <div class="question" id="qText">Question text</div>
+      <div class="small-muted" id="qCounts">
+        <i class="ph ph-cards"></i> <span id="qGlobalCount">0 / 0</span><br/>
+        <i class="ph ph-rows"></i> <span id="qCatCount">0 / 0</span>
+      </div>
     </div>
+    <div class="space"></div>
+    <div style="text-align:right">
+      <div class="small-muted">Category #/Total</div>
+      <div id="catIndexDisplay" style="font-weight:700; font-size:18px">0 / 0</div>
+    </div>
+  </div>
+
+  <div id="optionsArea"></div>
+
+  <div class="footer-buttons">
+    <button id="backBtn" class="small">Back</button>
+    <button id="nextBtn" class="small" disabled>Next</button>
+    <div class="space"></div>
+    <button id="retryBtn" class="small">Retry</button>
+  </div>
+</div>
+
+<!-- DONE -->
+<div id="done" class="hidden">
+  <div class="header">
+    <h1 class="h1">Results</h1>
+    <div class="small-muted">Review your answers</div>
+  </div>
+
+  <div class="card">
+    <div style="font-size:16px; margin-bottom:6px"><strong>Total score</strong></div>
+    <div style="font-size:36px; font-weight:700" id="totalScore">0000</div>
+    <div style="margin-top:8px" id="categoryScores"></div>
+  </div>
+
+  <div style="margin-top:12px">
+    <div class="header"><div class="small-muted">Review player</div></div>
+    <div id="donePlayer"></div>
+
+    <div class="footer-buttons" style="margin-top:12px">
+      <button id="doneBack" class="small">Back</button>
+      <button id="doneNext" class="small">Next</button>
+      <div class="space"></div>
+      <button id="doneRetry" class="small">Retry</button>
+    </div>
+  </div>
+</div>
 
     <!-- Scripts -->
     <script src="Source/Data/index.js"></script>

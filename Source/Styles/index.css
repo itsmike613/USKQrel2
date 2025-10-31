@@ -43,10 +43,10 @@ button:disabled {
 }
 
 .option {
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    margin: 5px 0;
+    border-radius: 6px;
+    margin: 8px 0;
     cursor: pointer;
     display: flex;
     align-items: center;
